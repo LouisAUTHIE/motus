@@ -1,0 +1,21 @@
+#gameframe{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;	
+}
+
+#gameframe div:not(.breaker){
+	display: block;
+	border: 1px solid black;
+	margin: 3px;
+	border-radius: 3px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-family: 'verdana';
+}
+
+#grameframe .breaker{
+	width: 100%:
+}
